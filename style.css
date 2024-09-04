@@ -11,6 +11,25 @@ html{
     scroll-behavior: smooth;
 }
 
+ 
+.divbg:hover {
+    transform: scale(1.2);
+}
+ 
+.divbg{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    border: 1px solid cyan;
+    object-fit: cover;
+    background-color: whitesmoke;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
